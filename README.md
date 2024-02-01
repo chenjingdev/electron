@@ -19,13 +19,28 @@ Node.js가 설치되어 있어야 합니다.
 ## 설치
 
 1. 저장소를 클론합니다.
-   `git clone https://github.com/your-username/your-project-name.git`
+
+```bash
+ git clone https://github.com/your-username/your-project-name.git
+```
+
 2. 프로젝트 디렉토리로 이동합니다.
-   `cd your-project-name`
+
+```bash
+   cd your-project-name
+```
+
 3. 필요한 패키지를 설치합니다.
-   `npm install`
+
+```bash
+   npm install
+```
+
 4. 앱을 실행합니다.
-   `npm start`
+
+```bash
+   npm start
+```
 
 ## 기여
 
