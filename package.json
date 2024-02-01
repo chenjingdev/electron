@@ -1,7 +1,7 @@
 {
-  "name": "puppeteer",
+  "name": "macro-app",
   "version": "1.0.0",
-  "description": "puppeteer test",
+  "description": "electron macro app",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -10,13 +10,15 @@
   },
   "build": {
     "appId": "com.yourapp.id",
-    "productName": "background changer",
+    "productName": "매크로앱",
+    "artifactName": "${productName}.${ext}",
     "mac": {
       "category": "your.app.category.type"
     },
     "win": {
       "target": "nsis",
-      "icon": "icon.ico"
+      "icon": "icon.ico",
+      "artifactName": "${productName}.${ext}"
     },
     "linux": {
       "target": [

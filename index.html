@@ -6,19 +6,21 @@
   <body>
     <h1>1. 먼저 로그인을 진행하고 닫아주세요.</h1>
     <p>(앱에 로그인 정보를 남기기 위함)</p>
-    <p>(최초 앱 설치시에만 진행하면 됨)</p>
+    <p>(앱 실행 후 1회 진행하면 됨)</p>
     <input
       type="text"
       id="loginUrlInput"
       placeholder="https://login.example.com" />
-    <button id="loginBtn">로그인</button>
+    <button id="loginBtn">사이트접속</button>
     <hr />
     <h1>2. URL 목록과 클릭할 버튼의 CSS 선택자를 입력하세요</h1>
     <p>목록은 , 쉼표로 구분되어야 합니다.</p>
+    <h2>url</h2>
     <textarea
       id="urlListInput"
       placeholder="https://example1.com, https://example2.com"
       rows="4"></textarea>
+    <h2>css selector</h2>
     <input type="text" id="cssSelectorInput" placeholder=".button-class" />
     <!-- .cd-mb-floating button -->
     <button id="processBtn">URL 순회 및 버튼 클릭</button>
